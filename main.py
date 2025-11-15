@@ -1,6 +1,6 @@
 # Importation des bibliothèques nécessaires
 import matplotlib.pyplot as plt  # Pour créer des graphiques
-import numpy as np  # Pour les opérations mathématiques (même si pas directement utilisé ici)
+import numpy as np  # Pour les opérations mathématiques
 
 # Configuration de l'affichage pour les caractères spéciaux
 plt.rcParams['font.sans-serif'] = ['DejaVu Sans']  # Police qui supporte les caractères français
@@ -9,7 +9,7 @@ plt.rcParams['axes.unicode_minus'] = False  # Pour afficher correctement le sign
 # Données pour les graphiques
 mois = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Jun', 'Jul', 'Aoû', 'Sep', 'Oct', 'Nov', 'Déc']  # Liste des mois abrégés
 ventes_2023 = [45, 52, 48, 55, 62, 75, 82, 78, 65, 58, 68, 85]  # Ventes mensuelles 2023 (en milliers d'euros)
-ventes_2024 = [50, 55, 52, 60, 68, 80, 88, 85, 72, 65, 75, 92]  # Ventes mensuelles 2024 (en milliers d'euros)
+ventes_2024 = [50, 55, 52, 60, 68, 80, 88, 85, 72, 65, 75, 92]  # Ventes mensuelles 2024 (en milliers d'euros) et ajouter d'autre années si vous voulaiz comme on a vue
 
 categories = ['Électronique', 'Vêtements', 'Livres', 'Sport', 'Maison']  # Catégories de produits
 pourcentages = [30, 25, 15, 20, 10]  # Pourcentage des ventes par catégorie
